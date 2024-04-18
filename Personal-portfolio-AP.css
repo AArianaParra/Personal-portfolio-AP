@@ -443,10 +443,9 @@
     #welcome-section {
       flex-direction: row;
       column-gap: 10px;
-
     }
-
     #welcome-section * {
       margin: auto;
     }
   }
+  
