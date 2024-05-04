@@ -1,5 +1,5 @@
 :root {
-  --body-background: darkblue;  
+  --body-background: rgb(0, 0, 88);  
   --second-font-color: black;
   --hover-font-color: white;
   --hover-background-color: rgb(79, 73, 73);
@@ -43,7 +43,7 @@
     height: var(--header-height);
   } 
   
-  ul, .contact-icons, .projects, .contact-group, #greeting-person, footer {
+  header, ul, .contact-icons, .projects, .contact-group, #greeting-person, footer {
     display: flex;
     flex-wrap: wrap;
   }
@@ -51,6 +51,10 @@
   a {
   text-decoration: none;
   cursor: pointer;
+  }
+
+  header {
+    justify-content: space-between;
   }
   
   header nav ul {
@@ -340,7 +344,9 @@
   }
   
   #button-portfolio {
-    background: var(--header-background-color);
+    background: linear-gradient(var(--header-background-color), var( --body-background));
+    width: 190px;
+    height: 60px;
     padding: 15px;
     border-radius: 5px;
     color: black;
@@ -348,8 +354,8 @@
   }
 
   #button-portfolio:hover {
-    transform: scale(1.5);
-    background: pink;
+    transform: scale(1.07);
+    background: linear-gradient(pink, rgb(241, 1, 241));
   }
   
 
@@ -361,7 +367,7 @@
   }
   
   #contact h1 {
-    font-size: 4rem;
+    font-size: 3.7rem;
   }
   
   .contact-icons {
