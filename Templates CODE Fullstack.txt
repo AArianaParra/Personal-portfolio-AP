@@ -1,0 +1,80 @@
+BOILERPLATES
+
+JAVASCRIPT 
+
+
+
+HTML 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!--The X-UA-Compatible meta tag allows web authors to choose which version of Internet Explorer (IE) should render the page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>  </title>
+    <link rel="stylesheet" href=" .css" />
+  </head>
+  <body></body>
+
+<html>
+
+
+CSS
+:root {
+  --    ;
+}
+
+* {
+  color: ;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: font, fallback;
+ scroll-behavior: smooth;
+}
+
+
+/*MEDIA*/
+
+@media screen and (max-width: 480px) {
+  
+}
+
+
+----------------------SOME COMMON FONT FAMILIES
+.serif {
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.sansserif {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+.emoji {
+  font-family: emoji;
+}
+
+.math {
+  font-family: math;
+}
+
+.fangsong {
+  font-family: fangsong;
+}
