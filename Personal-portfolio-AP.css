@@ -47,6 +47,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  header img {
+    height: 100%;
+    width: 210px;
+  }
   
   a {
   text-decoration: none;
@@ -424,6 +429,11 @@
     header nav ul {
       column-gap: 10px;
       margin-right: 6px;
+    }
+
+    header img {
+
+      width: 120px;
     }
 
     h1 {

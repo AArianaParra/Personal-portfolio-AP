@@ -6,7 +6,7 @@ JAVASCRIPT
 
 HTML 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!--The X-UA-Compatible meta tag allows web authors to choose which version of Internet Explorer (IE) should render the page. -->
@@ -17,6 +17,9 @@ HTML
   <body></body>
 
 <html>
+
+IMG     <img src="" alt="" loading="lazy">
+
 
 
 CSS
