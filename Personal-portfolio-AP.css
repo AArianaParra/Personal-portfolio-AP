@@ -420,7 +420,7 @@
 
   /* MEDIA ------------------------------------------------------------------------------------------- */
   
-  @media only screen and (max-width:480px) {
+ /* @media only screen and (max-width:480px) {
 
     header nav ul li a {
       font-size: 0.7rem;
@@ -494,6 +494,6 @@
     }
     
 
-  }
+  } */
   
   
