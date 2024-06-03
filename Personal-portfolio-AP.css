@@ -60,6 +60,7 @@
 
   header {
     justify-content: space-between;
+    height: 10%;
   }
   
   header nav ul {
@@ -391,6 +392,7 @@
   
   #contact {
   height: calc(100vh - var(--footer-height));
+  width: 100vw;
   padding: 20vh;
   }
   
@@ -400,6 +402,7 @@
   
   #welcome-section {
     height: 100vh;
+    width: 100vw;
   }
   
   /* FOOTER SECTION -------------------------------------------------------------------------------------------*/
@@ -420,80 +423,26 @@
 
   /* MEDIA ------------------------------------------------------------------------------------------- */
   
- /* @media only screen and (max-width:480px) {
+  /*Pantallas grandes*/
 
-    header nav ul li a {
-      font-size: 0.7rem;
+  @media only screen and (max-width: 1400px) {
+    html {
+      font-size: 25px;
     }
-
-    header nav ul {
-      column-gap: 10px;
-      margin-right: 6px;
-    }
-
-    header img {
-
-      width: 120px;
-    }
-
-    h1 {
-      font-size: 1.2rem;
-    }
-    
-    #greeting-h1 {
-      margin: 30px auto 15px auto;
-      font-size: 1.7rem;
-    }
-
-    #greeting p {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
-    }
-
-    .person {
-      display: none;
-    }
-
-    .projects {
-      row-gap: 10px;
-    }
-
-    #projects h1 {
-      margin-bottom: 20px;
-      margin-top: var(--header-height);
-    }
-    
-    img {
-      width: 250px;
-      height: 270px;
-      border: var(--header-background-color) 3px solid;
-      border-radius: 10px;
-    }
-    
-    figure:hover {
-    transform: scale(0.3);
-    }
-
-    .contact-group {
-      row-gap: 60px;
-    }
-    
-    #contact h1 {
-      font-size: 2rem;
-    }
-    
-    .contact-icons {
-      font-size: 0.7rem;
-      column-gap: 10px;
-      row-gap: 10px;
-    }
-
-    footer {
-      padding: 8px 5px;
-      font-size: 0.8rem;
-    }
-    
-
-  } */
+  }
   
+  /*Tabletas*/
   
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
+  /*Celulares*/
+  
+  @media only screen and (max-width: 450px) {
+    html {
+      font-size: 12px;
+    }
+  }
