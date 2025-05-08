@@ -496,7 +496,7 @@
   }
   
   /* ----------------------------MEDIA QUERIES---------------------------*/
-  @media (max-width: 750px) {
+  @media (max-width: 800px) {
       :root {
       --person-dimension: 270px;
     }
