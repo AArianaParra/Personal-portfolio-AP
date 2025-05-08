@@ -4,7 +4,12 @@
   --second-font-color: black;
   --hover-font-color: rgb(240, 238, 238);
   --hover-background-color: rgb(79, 73, 73);
-  --header-background-color:rgba(173, 229, 231, 0.975);
+  
+  
+  
+  
+  
+  --header-background-color:rgba(202, 240, 241, 0.857);
   --header-height: 90px;
   --greeting-color: white;
   --person-dimension: 300px;
@@ -626,4 +631,3 @@
   }
   
   }
-  
