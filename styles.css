@@ -2,7 +2,7 @@
   --header-font-size: 2.4rem;
   --body-background: darkblue;  
   --second-font-color: black;
-  --hover-font-color: rgb(240, 238, 238);
+  --hover-font-color: rgba(173, 229, 231, 0.975); /*rgba(173, 229, 231, 0.975); rgb(240, 238, 238) */
   --hover-background-color: rgb(79, 73, 73);
   
   
@@ -567,7 +567,25 @@
     margin-top: 95px;
   }
   
+    #projects {
+      height: 160vh;
+    }
+  
+    .contact-icons {
+    flex: 1 60%;
+    height: 200px;
+    width: 60%;
+    row-gap: 5px;
   }
+  
+  }
+  
+  @media (max-width: 550px) {
+      #projects {
+      height: 270vh;
+    }
+  }
+  
   
   @media (max-width: 450px) {
     :root {
@@ -605,21 +623,11 @@
     width: 50px;
   }
   
-  #projects {
-    height: 270vh;
-  }
-  
   .contact-group h1 {
     font-size: 3rem;
     margin: 20px auto -10px auto;
   }
   
-  .contact-icons {
-    flex: 1 60%;
-    height: 200px;
-    width: 60%;
-    row-gap: 5px;
-  }
   
   .contact-icons span {
     height: 10%;
